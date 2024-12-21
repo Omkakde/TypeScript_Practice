@@ -6,7 +6,9 @@ tuple.push('Pune');
 console.log(tuple);
 
 // tuple[2]=23; give error bcz second position is Pune as string only can add string
-
+let user: [string, number];
+user = ["Alice", 25]; //  ouput
+// user = [25, "Alice"]; // Error
 
 //Error
 // let tuple2: readonly [string, number] = ["Hello", 42];
